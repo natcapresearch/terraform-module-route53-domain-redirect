@@ -3,7 +3,7 @@ variable "zone" {
   type        = string
 }
 
-variable "target_url" {
-  description = "URL to redirect to"
+variable "target_host_name" {
+  description = "Hostname of site to redirect to"
   type        = string
 }
