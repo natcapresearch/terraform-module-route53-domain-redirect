@@ -1,6 +1,6 @@
 resource "random_string" "hash" {
   length  = 16
-  special = false
+  special = var.enable_random_string_special
 }
 
 resource "aws_s3_bucket" "this" {
