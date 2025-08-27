@@ -58,5 +58,5 @@ resource "aws_cloudfront_distribution" "redirect" {
     ]
   }
 
-  depends_on          = [aws_acm_certificate_validation.validation]
+  depends_on = [aws_acm_certificate_validation.validation]
 }
